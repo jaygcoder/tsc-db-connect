@@ -1,11 +1,13 @@
 {
   "name": "tsc-db-connect",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "TSC Node.js-based JSON Server",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async": "^2.6.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
