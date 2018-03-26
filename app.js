@@ -5,7 +5,7 @@ var async = require('async');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/members');
+var membersRouter = require('./routes/members');
 
 var app = express();
 
